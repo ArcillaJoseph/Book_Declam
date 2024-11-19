@@ -1,0 +1,34 @@
+body{
+    font-family: "Poppin", sans-serif;
+    background-color: D#2e3537;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    display: none;
+}
+.book {
+    width: 350px;
+    height: 450px;
+}
+.coved {
+    background-color: #4173a5;
+    width: 100;
+    height: 100 ; 
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 0 5px 2e3537rgb(41, 41, 41);
+    display: flex ;
+    align-items: center;
+   justify-content: center;
+}
+
+.cover {
+    position: absolute;
+    z-index: 1;
+}    
+.back-cover {
+    position: relative;
+    z-index: -1;
+}    
